@@ -1,5 +1,12 @@
-#### **Sobre o dataset:**
+# Análise e tratamento de dados do dataset público Life Expectancy
 
+#### Com uso do pandas foi realizada uma análise dos dados ingeridos através do dataset público sobre expectativa de vida, obtido no Kaggle.
+Também foram utilizados o Seaborn e o Matplotlib para realizar a plotagem de gráficos para análise.
+
+
+##### **Sobre o dataset:**
+
+Fonte:
 [Life Expectancy (WHO)] (https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who)
 
 Considerando dados de um período de 2000 a 2015 (16 anos) para todos os países, este dataset visa auxiliar na realização de uma análise preditiva a respeito da expectativa de vida. Imunizações importantes como Hepatite B, Poliomielite e Difteria também serão consideradas. Em poucas palavras, este estudo se concentrará em fatores de imunização, fatores de mortalidade, fatores econômicos, fatores sociais, além de outros fatores relacionados à saúde.
@@ -8,7 +15,7 @@ Como as observações deste conjunto de dados são baseadas em diferentes paíse
     
 Facilitará o processo de análise de qual ou quais os fatores preditivos que estão contribuindo para diminuir o valor da expectativa de vida e também o de identificação de qual área deve receber mais atenção quanto a formas de aumento da expectativa de vida de sua população.
 
-#### **Descrição das colunas:**
+##### **Descrição das colunas:**
 
 - **Country:** País
 - **Year:** Ano
@@ -32,3 +39,19 @@ Facilitará o processo de análise de qual ou quais os fatores preditivos que es
 - **Thinness 5-9 years:**  Prevalência de magreza em crianças de 5 a 9 anos (%)
 - **Income composition of resources:** Índice de Desenvolvimento Humano em termos de composição de renda dos recursos (índice variando de 0 a 1)
 - **Schooling:** Número de anos de escolaridade (anos)
+
+### Bibliotecas necessárias:
+```
+$ pip install pandas
+```
+```
+$ pip install matplotlib
+```
+```
+$ pip install seaborn
+```
+```
+$ pip install itertools
+```
+
+###### Rodar todas as células do arquivo "life_expectancy_dataset_treatment.ipynb"
